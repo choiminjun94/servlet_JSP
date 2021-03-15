@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>:: INPUT DATA :: </title>
+
+<script language="javascript">
+
+   function test(){
+     alert("클릭")
+   }
+</script>
+</head>
+
+<body>
+   <form enctype="multipart/form-data" method=post> 
+   Hidden : <input type="hidden" name="id" value="KSH"><br/>
+   DATA : <input type="text" name="data" maxlength="5" value="data" readonly><br/>
+   PASS: <input type="password" name="pass" maxlength="5"><br>
+   RADIO: <input type="radio" name="ra" value="man" checked>남성&nbsp;
+   	<input type="radio" name="ra" value="woman">여성<br/>
+   Check: <input type="checkbox" name="ch" value="1">컴퓨터<br/>
+   Button: <input type="button" name="bt" value="누르기" onClick="test()"><br/>
+   File Attach: <input type="file" value="찾아보기"><br>
+   SUBMIT: <input type="submit" value="전송"><br/>
+   Reset: <input type="reset" value="초기화"><br>
+   </form> 
+</body>
+</html>
+
