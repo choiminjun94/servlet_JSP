@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script language="JavaScript">
+   function display(){
+     document.write("name = " +this.name + "<br/>");	   
+     document.write("age = " +this.age + "<br/>");	   
+     document.write("addr = " +this.addr + "<br/>");	   
+   }
+   function person(name, age, addr){
+     this.name = name;
+     this.age = age;
+     this.addr = addr;
+     this.disp = display;
+   }
+
+</script>
+</head>
+<body>
+  <script>
+    var ps = new person("최민준", 28,"관악구" )
+    ps.disp();
+  </script>
+</body>
+</html>
