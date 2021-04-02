@@ -12,7 +12,7 @@ public class DBConnection {
 	
 	public DBConnection() {
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("org.gjt.mm.mysql.Driver");
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/turtorial", "root", "00000000");
 			st = con.createStatement();
 		}

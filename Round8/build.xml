@@ -1,0 +1,9 @@
+<project name="Round08" default="work_all" basedir=".">
+ <!-- 현재 파일에 대한 설명 -->
+   <description>
+      Round08 Ant Exam File
+   </description>
+ <!-- 윈문소스 파일의 경로와 대상 경로를 변수로 설정 -->
+ <property name="source.path" location="${basedir}\src"/>
+ <property name="dest.path" location="C:\my_ant"/>
+</project>

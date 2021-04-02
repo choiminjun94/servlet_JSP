@@ -30,5 +30,4 @@ public class Round10_MemberProcess extends HttpServlet {
 			response.sendRedirect("./Round10_Success.html");
 		}
 	}
-	
 }
